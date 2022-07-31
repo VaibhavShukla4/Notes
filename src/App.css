@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.card_{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200%;
+  height: 100%;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
