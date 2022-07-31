@@ -1,18 +1,18 @@
 export default [
     {
       id: 1,
-      title: `CRUD`,
-      note: `CRUD merupakan singkatan dari Create Read Update Delete`
+      title: 'CRUD',
+      note: 'CRUD is the operation of  Create Read Update Delete'
     },
     {
       id: 2,
-      title: `React`,
-      note: `React adalah library JavaScript untuk membangun antarmuka pengguna`
+      title: 'React Hooks',
+      note: "React hooks is built in feature in raect  "
     },
     {
       id: 3,
-      title: `React Hooks`,
-      note: `Dengan Hooks, kita dapat menggunakan state dan fitur React yang lain tanpa perlu menulis sebuah kelas baru.`
+      title: 'React',
+      note: "React is a single  page application "
     }
   ];
   

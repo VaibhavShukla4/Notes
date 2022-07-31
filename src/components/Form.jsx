@@ -13,7 +13,7 @@ function Form({ onCreate, onUpdate, onInputChange, mode, item = {} }) {
       <form onSubmit={handleSubmit}  className="form">
         <label htmlFor="title"  className="title">
           <input
-         
+         className="title_"
             type="text"
             value={item.title}
             placeholder="Title"
@@ -23,6 +23,7 @@ function Form({ onCreate, onUpdate, onInputChange, mode, item = {} }) {
 
         <label htmlFor="note">
           <textarea
+          className="note_"
             required
             value={item.note}
             placeholder="Take a note..."
@@ -30,7 +31,7 @@ function Form({ onCreate, onUpdate, onInputChange, mode, item = {} }) {
           />
         </label>
 
-        <button>{mode === "create" ? "Create" : "Save"}</button>
+        <button className="button">{mode === "create" ? "Create" : "Save"}</button>
       </form>
     </div>
   );

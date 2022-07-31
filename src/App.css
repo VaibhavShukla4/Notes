@@ -41,6 +41,11 @@
   justify-content: center;
   align-items: center;
 }
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .title{
   display: flex;
   justify-content: center;
@@ -52,4 +57,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title_{
+  width: 15vw;
+  height: 7vh;
+  background-color: aqua;
+  margin-top: 3%;
+}
+.note_{
+  width: 15vw;
+  height: 7vh;
+  background-color: aqua;
+  margin-top: 5%;
+}
+.button{
+  background-color: rgb(51, 153, 129);
+  color: azure;
+  margin-top: 2%;
+  padding: 3%;
+}
+.delete{
+  background-color: rgb(153, 51, 71);
+  color: azure;
+  padding: 6%;
+}
+.edit{
+  background-color: rgb(51, 82, 153);
+  color: azure;
+  padding: 6%;
+}
+.title_notes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkorchid;
+}
+.card__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+  color: rgb(204, 50, 196);
 }
